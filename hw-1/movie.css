@@ -1,110 +1,137 @@
-  body{
-    width: 650px;
-    height: 500px;        
-    margin-left: 50%;        
-    background-image: url(images/background.png);
-                    
-            
+  @media (max-width: 500px)
+     { .flexbox-conteiner {
+        flex-direction: column;
+         width: auto;
+         margin: auto;
+         }
+         .futer{
+             width: auto;
+         }
          
-    
-            
+        
+     } 
+     .flexbox-conteiner{
+         display: flex;
+         margin:auto;
+         width: 55%;
+         height: 100%;
+       background-color: #EEEEEE;
+            border-color: gray;
+            border-style: solid;
+            border-width: [5px][5px];
+         padding: 5px;
+         
+     
+         
+     }
+     
+     .flexbox-item-l{
+            flex: 3;
             }
-        p{
+     .baner{
+         background-image: url(rbg.png);
+         margin-top: -15.5px;
+         color: red;
+         font-size: 48pt;
+         justify-content:space-around;
+         
+     
+     }
+     
+    
+     
+     .tekst {
+         padding: 5px;    
+
+     }
+     
+        
+            
+     
+     .flexbox-item-r{
+       flex:1;
+         background-color: #A2B964;
+           
+            padding: 15px;
+            font-size: 12pt;
+            font: "Arial";
+        
+                  }
+         
+     .img{
+         width: 117%;
+         margin-left: -15px;
+         margin-top: -15px;
+     
+     }
+     
+     body{                  
+    background-image: url(images/background.png)
+         
+        
+     }
+     
+     p{
             font-family: "Arial";
             font-size: 12pt;
         
             
         }
-        #a{
-            background-color: #EEEEEE;
-            width: 55%;
-            border-color: gray;
-            border-style: solid;
-            border-width: [5px][5px];
-            padding: 5px;
-            margin-top: 1rem;
-            position: relative;
-            bottom: 18px;
-        
-        }
-        #b{
-            
-             height: 500px;
-            width: 277px;
-            position:relative;
-            left: 373px;
-            bottom: 360.5%;
-            min-height: 500px;
-            
-        
-        }
-        
-        #d{
-            background-color: #A2B964;
-            width: 45%;
-            width: 257px;
-            height: 253.5%;
-            position: relative;
-            left: 373px;
-            bottom: 365%;
-            padding: 10px;
-            font: "Arial";
-        
-        
-        }
-       
-         
-        h1{
+      
+     
+     h1{
             
             font-size: 24pt;
-            vertical-align: middle;
             text-shadow: 3px 3px #999999;
             font-family: "Times New Roman";
             font-weight: bold;
             position: relative;
-            left: 30%;
-        }
-        
-        footer{
-            background-color: #A2B964;
-            padding: 0.5em;
-            position: relative;
-            bottom: 369%;
             text-align: center;
+        }
+     
+     
+     .futer{
+         background-color: #A2B964;
+            padding: 0.5em;
+         text-align: center;
+         align-items: center;
+         margin-left: -1%;
+         margin-bottom: -5px;
+         padding-bottom: 10px;
+         width: 100%;
+    
+         
+     }
+     
+     
+    
+    
         
-        }
-        #broj{
-            flex-wrap:  wrap-reverse;
-            color: red;
-            font-size: 48pt;
-            position: relative;
-            bottom: 18px;
-          right: 3%;
-        }
         .quotebubble{
             width: 90%;
-            
-        
             background-color:   #FFFFFF;
             border-style: solid;
             border-radius: 12px;
             border-width: 2px;
             border-color: #CCCCCC;
             padding: 1em;
-        }
-        #c{
+            font-family: "Times New Roman";
+            font-size: 13pt;
             
-            background-image: url(images/rbg.png);
         }
-        #w3c{
-           
-            position: relative;
-            bottom: 360%;
-            left: 120%;
-        }   
-        
-        dd{
-            padding: 5px;
+     
+     #ime{
+         font-size: 13pt;
+     }
+     
+     
+      
+        .w3c{
+      margin-left: 80%;      
+         }
+     
+      dd{
+            padding: 15px;
         }
         #g{
             padding-right: 5px;
