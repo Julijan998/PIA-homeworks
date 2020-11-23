@@ -1,0 +1,333 @@
+/* Custom Classes forUse */
+
+.bg-pink {
+    background-color: #FF004D;
+}
+
+.color-pink {
+    color: #FF004D;
+}
+
+.btn-theme {
+    background-color: #FF004D;
+    padding: 5px 20px;
+    color: #fff;
+    outline: none;
+}
+
+.btn-theme:focus {
+    box-shadow: none;
+}
+
+.btn-theme:hover {
+    color: #fff;
+    box-shadow: 0px 0px 0px 4px rgba(255, 0, 70, 0.5), 0px 0px 0px 7px rgba(255, 0, 77, 0.3);
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightyellow;
+
+}
+
+#main-home {
+    width: 100%;
+    min-height: 650px;
+    background-color: lightgray;
+    background-size: 100% 100%;
+}
+
+.navbar{
+    background-color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.top-header .item a {
+    color: #000000;
+}
+
+.top-header .item a:hover {
+    color: #FF004D;
+} 
+
+.cart {
+    padding: 5px 10px !important;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+#navbarNav{
+    text-align: left;
+    margin: 0% 10%;
+
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #FF004D;
+}
+
+#banner-section {
+    margin-left:10%; 
+    margin-right: 10%;
+    padding-top: 50px;
+   background-image: url(../img/paintablewallapaper-Black.jpg);}
+
+#boja{
+    color: white;
+}
+.py-2{
+    color: white;
+}
+
+#banner-section .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#banner-section .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: -6rem;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+#banner-section .owl-carousel .owl-dots button span {
+    background-color: #c8c8c8;
+    padding: 6px !important;
+}
+
+#banner-section .owl-carousel .owl-dots button.active span {
+    background-color: #FF004D;
+}
+
+#banner-section .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-prev span,
+#banner-section .owl-carousel .owl-nav button.owl-next span {
+    font-size: 56px;
+    padding: 0 1rem;
+    color: #FF004D;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -5rem;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -5rem;
+}
+
+#logoo{
+    margin-top: 1%;
+    text-align: center;
+    border-color: yellow;
+    border:solid;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: white;
+}
+
+#h4{
+    text-align: center;
+    color: white;
+}
+#h1{
+    text-align: center;
+    font-size: 40px;
+    color: #FF004D;
+
+} 
+
+#Capricciosa{
+  
+ padding-bottom: 20px;
+ margin-left: -30px;
+}
+
+#slanina{
+    margin-right: -10px;
+    padding-top: 50px;
+}
+
+
+
+
+#about-section {
+    background: url(../img/pizza-takeout-delivery.jpg);
+    background-size: 100% 100%;
+     margin-left:10%; 
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.py-3{
+    color: black;
+}
+
+#about-section .overlay {
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 107.24%);
+    padding: 50px 0;
+}
+
+#about-section h1 {
+    color: #FFFFFF;
+}
+
+#about-section .overlay .text-about {
+    width: 50%;
+}
+
+#about-section .btn i.fas,
+#offer-section .btn i.fas {
+    margin-left: 10px;
+}
+
+#offer-section {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EEEEEE 100%), #FFFFFF;
+    padding: 80px 0;
+}
+
+#divider {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+#divider hr {
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    margin: auto;
+}
+
+
+#contact-section {
+    background: url(../img/contact-bg.jpg);
+    background-size: 100% 100%;
+    padding: 80px 0;
+}
+
+#contact-section form .form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: #FF004D;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+#contact-section form .form-control {
+    resize: none;
+}
+
+#contact-section form .form-control:focus {
+    box-shadow: 0 0 5px 0 #FF004D;
+}
+
+
+
+#footer .footer-top {
+    background: #EEEEEE;
+    padding: 10px 0;
+}
+#futer{
+    text-align: right;
+    margin-right: -450px;
+
+}
+
+
+#footer .footer-top .social a i {
+    font-size: 24px;
+    color: #000000;   
+}
+
+#footer .footer-top .social a i:hover {
+    color: #FF004D;
+}
+
+/* Responsive Styling */
+
+@media only screen and (max-width:800px) {
+    #logo{
+        width: 100%;
+    }
+    #banner-section {
+        padding: 50px 0;
+    }
+    #banner-section .owl-carousel .owl-nav {
+        display: none;
+    }
+    #banner-section .owl-carousel .owl-dots {
+        bottom: -2rem;
+    }
+    #about-section {
+        background-size: cover;
+    }
+    #about-section .overlay .text-about {
+        width: 75%;
+    }
+    #contact-section {
+        background-size: cover;
+    }
+    #gallery-section .gallery .item {
+        width: 49%;
+    }
+    #gallery-section .gallery .item img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .top-header>.d-flex {
+        flex-direction: column;
+    }
+    .top-header>.d-flex>.item {
+        padding: 5px 0;
+    }
+    #banner-section {
+        padding: 50px 0;
+    }
+    #banner-section .owl-carousel .owl-nav {
+        display: none;
+    }
+    #banner-section .owl-carousel .owl-dots {
+        bottom: -2rem;
+    }
+    #about-section .overlay .text-about {
+        width: 100%;
+    }
+    #offer-section .d-flex {
+        flex-direction: column;
+    }
+    #footer .footer-top .social {
+        width: 50%;
+        margin: auto;
+    }
+    #footer .footer-top .newsletter {
+        padding-bottom: 30px;
+    }
+}
