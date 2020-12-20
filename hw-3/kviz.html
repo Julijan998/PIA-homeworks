@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Kvizzzzz</title> 
+    
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="first_page">
+         <div class="start_btn"><button class="Start-button">Pocni Kviz</button></div>
+
+         <div class="score_btn"><button class="Score-button" >Rezultati</button></div>  
+
+    </div>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Pravila Kviza:</span></div>
+        <div class="info-list">
+            <div class="info">1. Imate <span>20 sekundi</span> za svako pitanje posebno.</div>
+            <div class="info">2. Kada jednom odgovorite na pitanje, ne mozete da promenite vas odgovor.</div>
+            <div class="info">3. Ukoliko vreme istekne, pitanje ce vam biti racunato kao netacno.</div>
+            <div class="info">4. Cim odgovorite na pitanje bice vam prikazano da li je tacno ili ne.</div>
+            <div class="info">5. Poeni ce biti prikazani na kraju testa.</div>
+            <div class="info">6. Srecno! </div>
+
+<!-- insert name -->
+<div class="container-save">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            enabled
+          >
+            Sacuvaj
+          </button>
+        </form> 
+
+        
+        </div>
+        <div class="buttons">
+            <button class="quit">Izlaz</button>
+            <button class="restart">Pocni kviz</button>
+        </div>
+    </div>
+          
+          </body>
+</html>
