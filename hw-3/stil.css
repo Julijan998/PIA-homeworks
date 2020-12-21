@@ -1,1 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+  background-image: url("super-mario-igra-voprosiki.jpg");      
+  
+}
+
+
+::selection{
+    color: #fff;
+    background: #007bff;
+}
+
+.start_btn,
+.info_box,
+.quiz_box,
+.result_box,
+.ResultBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.score_btn{
+position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult,
+.ResultBox.activeResult1{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #800000;
+    cursor: pointer;
+
+}
+
+button.Start-button:hover{
+color: #fff;
+    background: #551A8B;
+}
+
+.score_btn button{
+   font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #800000;
+    cursor: pointer;
+
+}
+
+button.Score-button:hover{
+    color: #fff;
+    background: #551A8B;
+}
 
