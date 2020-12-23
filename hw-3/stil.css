@@ -154,3 +154,38 @@ button.Score-button:hover{
     color: #fff;
     background: #FFA54F;
 }
+
+#username{
+    height: 30px;
+    width: 200px;
+    border: 0.5px solid #343a40;
+    border-radius: 5px;
+    background: #FFA54F;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+#saveScoreBtn{
+    margin: 0 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease; 
+    color: #fff;
+    background: #FFA54F;
+
+}
+
+#saveScoreBtn:hover{
+    color: #fff;
+    background: #FF2400;
+}
