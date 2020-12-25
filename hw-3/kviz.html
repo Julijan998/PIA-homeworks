@@ -1,21 +1,36 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Kvizzzzz</title> 
+    <title>Kvizz</title>
     <link rel="stylesheet" href="stil.css">
-    
-    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <!-- start Quiz button -->
     <div class="first_page">
+        
+        
+        
          <div class="start_btn"><button class="Start-button">Pocni Kviz</button></div>
 
-         <div class="score_btn"><button class="Score-button" >Rezultati</button></div>  
+         <div class="score_btn"><button class="Score-button">Rezultati</button></div>
 
+ <div class="ResultBox">
+   <div class="container">
+      <div id="highScores" class="flex-center flex-column">
+        <h1 id="finalScore">REZULTATI:</h1>
+        <ol id="highScoresList">
+            <!-- ovde se sacuva -->
+        </ol>
+        <button class="quit">Izlaz</button>
+      </div>
+    </div>
+        
+    <script src="highscores.js"></script>
+        
     </div>
     <!-- Info Box -->
     <div class="info_box">
@@ -23,43 +38,28 @@
         <div class="info-list">
             <div class="info">1. Imate <span>20 sekundi</span> za svako pitanje posebno.</div>
             <div class="info">2. Kada jednom odgovorite na pitanje, ne mozete da promenite vas odgovor.</div>
-            <div class="info">3. Ukoliko vreme istekne, pitanje ce vam biti racunato kao netacno.</div>
+            <div class="info">3. Ukoliko vreme istekne, pitanje ce vam biti uracunato kao netacno.</div>
             <div class="info">4. Cim odgovorite na pitanje bice vam prikazano da li je tacno ili ne.</div>
             <div class="info">5. Poeni ce biti prikazani na kraju testa.</div>
-            <div class="info">6. Ukoliko prekinete kviz, imacete onoliko poena koliko ste ostvarili do tog trenutka u kvizu. </div>
-            <div class="info">7. Srecno! </div>
-
-
-
-        
+            <div class="info">6. Ukoliko prekinete test vas rezultat ce biti racunat do prekida</div>    
         </div>
+            
+        
+        
         <div class="buttons">
             <button class="quit">Izlaz</button>
             <button class="restart">Pocni kviz</button>
         </div>
     </div>
-            <!-- highscore box -->
 
-<div class="ResultBox">
-<div class="highScores">
-      <div id="highScores" class="flex-center flex-column">
-        <h1 id="finalScore">Rezultati:</h1>
-        <ol id="highScoresList"></ol>
-        <button class="quit">Izlaz</button>
-</div> 
-</div>
-</div>
-<script src="highscores.js"></script>
-    
-    
-    <!---- Quiz Box --->
+    <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
             
-            <div class="title"> Kviz </div>
+            <div class="title">Kviz </div>
 
         <div class="buttons"> 
-
+         
             <button class="close-button" aria-label= "close-alert" type="button"><span aria-hidden=true>Prekini kviz</span></button>
 
          </div>    
@@ -72,19 +72,16 @@
         </header>
         <section>
             <div class="que_text">
-                <!------ bice ubacena pitanja u JavaScript-u ------->
             </div>
             <div class="option_list">
-                <!------- opcije ubacene u JavaScript-u --------->
             </div>
         </section>
 
-        <!----- footer of Quiz Box -------->
+        <!-- footer of Quiz Box -->
         <footer>
             
             <div class="total_que">
-                
-                <!----------- redni brojevi pitanja bice dodati u js-u ---------------->
+               
             </div>
            
 
@@ -94,26 +91,27 @@
         </footer>
     </div>
 
-    <!---------- Result Box ------------->
+    <!-- Result Box -->
     <div class="result_box">
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
         <div class="complete_text">Kviz je zavrsen, hvala!</div>
         <div class="score_text">
-            <!----------- rezultat kviza bice dodato u js-u --------------->
         </div>
-        
-      <!-- insert name -->
-<div class="container-save">
+
+
+        <div class="username-box">
       <div id="end" class="flex-center flex-column">
-        <h1 id="finalScore"></h1>
+        <h1 id="finalScore">
+            
+        </h1>
         <form>
           <input
             type="text"
             name="username"
             id="username"
-            placeholder="username"
+            placeholder="unesite ime"
           />
           <button
             type="submit"
@@ -124,25 +122,24 @@
           >
             Sacuvaj
           </button>
-        </form> 
-        
-      
-        <div class="buttons">
+        </form>
+      </div>
+    </div>
 
+    
+        
+        <div class="buttons">
             <button class="restart">Pocni kviz ponovo</button>
             <button class="quit">Izadji</button>
         </div>
     </div>
-          
 
-        </div> 
-
-       <script src="pitanja.js"></script> 
+     <script src="pitanja.js"></script> 
 
      <script src="js.js"></script> 
     
     <script src="end.js"></script>
-    </div> 
-          
-          </body>
+    </div>
+</body>
 </html>
+
