@@ -91,7 +91,7 @@ let questions = [
   },
   {
     numb: 9,
-    question: "Kodg datuma se u Srbiji proslavlja dan mladosti?",
+    question: "Kog datuma se u Srbiji proslavlja dan mladosti?",
     answer: "25. maj",
     options: [
       "25. jul",
