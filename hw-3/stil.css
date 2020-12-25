@@ -9,7 +9,8 @@
 body{
 
   background-image: url("super-mario-igra-voprosiki.jpg");      
-  
+    /*background: #8E2323 ; 
+*/
 }
 
 
@@ -88,6 +89,9 @@ button.Score-button:hover{
     color: #fff;
     background: #551A8B;
 }
+
+
+
 .info_box{
     width: 540px;
     background: #D9D9F3;
@@ -154,7 +158,9 @@ button.Score-button:hover{
     color: #fff;
     background: #FFA54F;
 }
-
+.username-box{
+    text-align: center;
+}
 #username{
     height: 30px;
     width: 200px;
@@ -189,9 +195,11 @@ button.Score-button:hover{
     color: #fff;
     background: #FF2400;
 }
+
+
 .quiz_box{
     width: 550px;
-    background: #fff;
+    background: #D9D919;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -204,7 +212,7 @@ button.Score-button:hover{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: #D9D919;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -260,7 +268,7 @@ button.Score-button:hover{
 
 section{
     padding: 25px 30px 20px 30px;
-    background: #fff;
+    background: #CFB53B;
 }
 
 section .que_text{
@@ -285,6 +293,8 @@ section .option_list .option{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
+    background: #8B2323;
 }
 
 section .option_list .option:last-child{
@@ -369,7 +379,7 @@ footer button.next_btn{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
+    background: #778899;
     border: 1px solid #007bff;
     line-height: 10px;
     opacity: 0;
@@ -396,7 +406,7 @@ footer button.show{
     font-weight: 400;
     color: #fff;
     border-radius: 5px;
-    background: #8B2323;
+    background: #778899;
     border: 1px solid #8B2323;
     line-height: 10px;
     cursor: pointer;
@@ -405,12 +415,11 @@ footer button.show{
 
 button.close-button:hover{
     color: #fff;
-    background: #FFA54F;
+    background: #000000;
 }
 
-
 .result_box{
-    background: #fff;
+    background: #E6E8FA;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -485,7 +494,7 @@ button.close-button:hover{
     background: #FFA54F;
 }
 .ResultBox{
-    background: #fff;
+    background: #E6E8FA;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -518,6 +527,8 @@ button.close-button:hover{
     border-radius: 5px;
     border: 1px solid #007bff;
     transition: all 0.3s ease;
+
+
 }
 .ResultBox button.quit{
     color: #fff;
