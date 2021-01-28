@@ -1,0 +1,6 @@
+1. Insertovati filmklub.sql na myphpadmin
+
+2. Folder Domaci prebaciti u folder okruzenja koje koristite(u slucaju da koristite okruzenje WAMP,
+premestite folder u wamp64/www/).
+
+3. Pokrenuti sajt pozivom u pretrazivacu: http://localhost/domaci/ 
