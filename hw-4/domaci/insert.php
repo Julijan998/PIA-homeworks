@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-// initializing variables
-
 $id="";
 $name = "";
 $genre="";
@@ -18,7 +16,6 @@ $errors = array();
 // connect to the database
 $data_base = mysqli_connect('localhost', 'root', '', 'filmklub');
 
-// Registration
 if (isset($_POST['insert'])) {
   $id = mysqli_real_escape_string($data_base, $_POST['id']);
   $name = mysqli_real_escape_string($data_base, $_POST['name']);
@@ -56,7 +53,6 @@ if (empty($id)) {
   $movies_check_query = "SELECT * FROM movies_1 WHERE name='$name' OR id='$id' LIMIT 1";
   $result = mysqli_query($data_base, $movies_check_query);
   $movies = mysqli_fetch_assoc($result);
- // $id=mysqli_num_rows($results)+1;
   
   if ($movies) { 
     if ($movies['name'] === $name) {
