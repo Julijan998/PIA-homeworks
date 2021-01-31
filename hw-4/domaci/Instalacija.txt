@@ -1,6 +1,10 @@
-1. Insertovati filmklub.sql na myphpadmin
+1. Napraviti databazu sa imenom "filmklub" i insertovati filmklub.sql  myphpadmin
 
 2. Folder Domaci prebaciti u folder okruzenja koje koristite(u slucaju da koristite okruzenje WAMP,
 premestite folder u wamp64/www/).
 
 3. Pokrenuti sajt pozivom u pretrazivacu: http://localhost/domaci/ 
+
+4. Kao admin registracija se vrsi rucno direktno u bazi podataka u tabeli "admins".
+
+5. Ukoliko dodajete film u bazu podataka. Morate dodati sliku u folder static/movies/ sa imenom image i $id vrednost koju zadajete novom filmu. Tako da bi za 25. film naslov slike bio "image25" 
